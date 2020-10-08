@@ -1,3 +1,5 @@
+
+
 *{
     
    
@@ -63,14 +65,32 @@ h1{
      font-weight: lighter;
      font-family: Arial, Helvetica, sans-serif;
      padding: 24px;
+     width: 50%;
 
      
 }
-.icon1{
-    width: 40px;
-    height: 40px;
-    background-color: green;
+.name11{
+    width: 30%;
     float: right;
+    padding: 24px;
+    text-align: right;
+    margin-top: -70px;
+    color: green;
+    
+}
+.icon1{
+    padding: 10px;
+    float: left;
+    margin-top: -60px;
+    text-align: left;
+    margin-left: 180px;
+    
+}
+span.flaticon-up-arrow{
+    color: green;
+}
+span.flaticon-down-arrow{
+    color: red;
 }
 
 
@@ -94,7 +114,7 @@ h1{
 .total{
     width: 30%;
     float: right;
-    padding: 20px;
+    padding: 24px;
     text-align: right;
     
     
@@ -107,6 +127,15 @@ h1{
      padding: 24px;
 
      
+}
+.name22{
+    width: 30%;
+    float: right;
+    padding: 24px;
+    text-align: right;
+    margin-top: -70px;
+    color: green;
+    
 }
 .box3{
     width: 20%;
@@ -141,6 +170,15 @@ h1{
     
      
 }
+.name33{
+    width: 30%;
+    float: right;
+    padding: 24px;
+    text-align: right;
+    margin-top: -70px;
+    color: red;
+    
+}
 .box4{
     width: 20%;
     height: 200px;
@@ -173,6 +211,16 @@ h1{
      padding: 24px;
      
 }
+.name44{
+    width: 30%;
+    float: right;
+    padding: 24px;
+    text-align: right;
+    margin-top: -70px;
+    color: green;
+    margin-left: 500px;
+    
+}
 .container1{
     width: 100%;
     height: auto;
@@ -182,7 +230,7 @@ h1{
 }
 .box5{
     width: 60%;
-    height: 600px;
+    height: 750px;
     background: white;
     margin: 40px;
     box-sizing: border-box;
@@ -191,26 +239,153 @@ h1{
    
 
 }
-.Calendar{
-    width: 30%;
+.upcoming{
+    width: 40%;
+    padding: 24px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.avtar3{
+    width: 100px;
+    height: 100px;
     float: left;
     padding: 24px;
+    position: absolute;
+    top: 600px;
+    left: 50px;
+    
+    
+    
+}
+.avtar4{
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 24px;
+    position: absolute;
+    top: 750px;
+    left: 50px;
+    
+    
+    
+}
+.avtar5{
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 24px;
+    position: absolute;
+    top: 900px;
+    left: 50px;
+    
+    
+    
+}
+.para12{
+    width: 83%;
+    float: right;
+    padding: 14px;
+    text-align: left;
+    padding-left: 14px;
+    margin-top: 10px;
+   
+
+}
+.para13{
+    width: 83%;
+    float: right;
+    padding: 14px;
+    text-align: left;
+    padding-left: 14px;
+    margin-top: 80px;
+   
+
+}
+span#now{
+    
+    color: lightgray;
+}
+
+.calendar{
+    width: 30%;
+    
+    float: left;
+    padding: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    
+    text-align: left;
+}
+.upcoming{
+    width: 40%;
+    float: left;
+    padding: 14px;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 10px;
 }
 .event{
     width: 20%;
     float: right;
-    padding: 24px;
+    padding: 14px;
     text-align: right;
     color: white;
     background: blue;
     text-align: center;
+    margin-left: 80px;
+    
     
 }
+.hr2{
+    width: 100%;
+    height:1px;
+    border-width:0;
+    margin-top: 70px;
+    
+    background-color: lightslategray
+}
+.more{
+    width: 60%;
+    padding: 14px;
+    top: 1550px;
+    float: left;
+    text-align: left;
+    padding-top: 30px;
+}
+.calendar1{
+     margin: 0;
+     width: 50%;
+     float: right;
+     height: 50%;
+     box-sizing: border-box;
+     margin-top: -60%;
+}
+table { width: 100%; box-sizing: border-box; box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.1); font-family: 'Ubuntu'; /*border-collapse: collapse;*/ border-spacing: 0; background-color: #333333; }
+
+th, td { border: 1px solid rgba(255,255,255,0.1); box-sizing: border-box; }
+
+th { text-transform: uppercase; font-size:10px; font-weight:700; padding: 10px 0; color: rgba(255,255,255,0.5); background-color: #292929; letter-spacing: 1px; }
+
+td { width: 14.285%; transition: all 0.3s; font-size: 14px; color: rgba(255,255,255,0.6); font-weight: 400; font-size: 14px; padding: 1.5% 1.5% 5%; vertical-align: initial; padding: 1.5% 0 ; height: 75px; }
+
+.day:hover { background-color: rgba(0,0,0,0.1); cursor:pointer; }
+
+.today { color: #FFF; background-color: rgba(0,0,0,.25) !important; }
+
+span.number { margin-left: 10% }
+
+span.event { height: 4px; background-color: rgba(0,0,0,.3); display: block; margin: 5px 10%; border-radius: 2px; background-color: #91c33b; }
+
+span.event-multiday { margin: 5px -2px; border-radius: 0; }
+span.event-multiday-start { margin-right: -4px;  }
+span.event-multiday-finish { margin-left: -4px;  }
+
+span.event-ghost { background-color:transparent; }
+
 .box6{
     width: 40%;
-    height: 600px;
+    height: 750px;
     background: white;
     margin: 40px;
     box-sizing: border-box;
@@ -240,7 +415,6 @@ h1{
     padding: 24px;
     text-align: left;
 }
-
 .container2{
     width: 100%;
     height: auto;
@@ -255,6 +429,80 @@ h1{
     color: grey;
     padding: 14px
 }
+.task{
+    width: 30%;
+    float: left;
+    padding: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+
+}
+.view{
+    width: 20%;
+    float: right;
+    padding: 24px;
+    text-align: right;
+    color: blue;
+    
+    
+}
+.hr{
+    width: 100%;
+    height:1px;
+    border-width:0;
+    
+    background-color: lightslategray
+}
+.check{
+    width: 20%;
+    height: 25px;
+    margin-top: 20px;
+    
+
+}
+.check1{
+    width: 20%;
+    height: 25px;
+    
+    float: left;
+    
+
+}
+.check2{
+    width: 20%;
+    height: 25px;
+    float: left;  
+
+}
+.check3{
+    width: 20%;
+    height: 25px;
+    float: left;  
+
+}
+.check4{
+    width: 20%;
+    height: 25px;
+    float: left;  
+
+}
+
+.para22{
+    width: 80%;
+    float: right;
+    padding: 14px;
+    text-align: left;
+    padding-left: 14px;
+    margin-top: -40px;
+
+}
+#high{
+    color: white;
+    background: orange;
+    box-sizing: border-box;
+    height: 50px;
+    width: 30px;
+}
 .box8{
     width: 30%;
     height: 600px;
@@ -264,6 +512,42 @@ h1{
     color: grey;
     padding: 14px
 }
+.activities{
+    width: 30%;
+    float: left;
+    padding: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+.avtar1{
+    vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 14px;
+  margin-bottom: 30px;
+  
+}
+.para1{
+    width: 70%;
+    float: right;
+    padding: 14px;
+    text-align: left;
+    padding-left: 14px;
+    margin-top: 10px;
+
+}
+span#now{
+    
+    color: lightgray;
+}
+
+
+span{
+    color: blue;
+    font-family: Gill Sans Extrabold, sans-serif;
+    font-weight: bold;
+}
 .box9{
     width: 30%;
     height: 600px;
@@ -271,7 +555,23 @@ h1{
     margin: 40px;
     box-sizing: border-box;
     color: grey;
-    padding: 14px
+    padding: 14px;
+}
+.note{
+    width: 30%;
+    float: left;
+    padding: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+.avtar12{
+    vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 14px;
+  
+  
 }
 @media screen and (max-width:1200px){
     .box1,.box2,.box3,.box4{
@@ -290,6 +590,16 @@ h1{
 }
 @media screen and (max-width:600px){
     .box5,.box6{
+        width: 90%;
+    }
+}
+@media screen and (max-width:1200px){
+    .box7,.box8,.box9{
+        width: 40%;
+    }
+}
+@media screen and (max-width:600px){
+    .box7,.box8,.box9{
         width: 90%;
     }
 }

@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 06/10/2020 15:44
+    Creation date: 08/10/2020 03:56
     */
 
     @font-face {
@@ -39,6 +39,20 @@
 
     .flaticon-down-arrow:before { content: "\f100"; }
 .flaticon-up-arrow:before { content: "\f101"; }
+.flaticon-calendar-1:before { content: "\f102"; }
+.flaticon-notification-1:before { content: "\f103"; }
+.flaticon-calendar-on-day-17:before { content: "\f104"; }
+.flaticon-activity-1:before { content: "\f105"; }
+.flaticon-task:before { content: "\f106"; }
+.flaticon-task-1:before { content: "\f107"; }
+.flaticon-communication:before { content: "\f108"; }
     
     $font-Flaticon-down-arrow: "\f100";
     $font-Flaticon-up-arrow: "\f101";
+    $font-Flaticon-calendar-1: "\f102";
+    $font-Flaticon-notification-1: "\f103";
+    $font-Flaticon-calendar-on-day-17: "\f104";
+    $font-Flaticon-activity-1: "\f105";
+    $font-Flaticon-task: "\f106";
+    $font-Flaticon-task-1: "\f107";
+    $font-Flaticon-communication: "\f108";
